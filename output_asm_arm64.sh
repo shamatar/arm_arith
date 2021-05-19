@@ -1,0 +1,2 @@
+# RUSTFLAGS="-C target-cpu=apple-a14 -C target-feature=+v7,+neon --emit asm" cargo build --release --target aarch64-unknown-linux-gnu
+RUSTFLAGS="-C target-feature=+neon --emit asm" cargo build --release --target aarch64-unknown-linux-gnu
